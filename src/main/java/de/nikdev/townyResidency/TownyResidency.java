@@ -1,36 +1,28 @@
 package de.nikdev.townyResidency;
 
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerBedLeaveEvent;
-import org.bukkit.event.player.PlayerJoinEvent;
+import com.palmergames.bukkit.towny.TownyAPI;
+import de.nikdev.townyResidency.Commands.ResidencyCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class TownyResidency extends JavaPlugin implements Listener {
+public final class TownyResidency extends JavaPlugin {
 
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("My First Plugin has started. Hi!");
-        getServer().getPluginManager().registerEvents(this,this);
+        if (getServer().getPluginManager().getPlugin("Towny") == null) {
+            getLogger().severe("Towny not found! Disabling plugin...");
+            getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
+        TownyAPI api = TownyAPI.getInstance();
+        getLogger().info("Towny found! Loaded version: " + api);
+
+        getCommand("residency").setExecutor(new ResidencyCommand());
     }
 
-    @EventHandler
-    public void onPlayerJoin(PlayerJoinEvent event) {
-        System.out.println("A Player has joined the server.");
-        String playerName = event.getPlayer().getName();
-        event.setJoinMessage("Welcome to the Pit " + playerName + ".");
-    }
 
-    @EventHandler
-    public void onPlayerLeaveBed(PlayerBedLeaveEvent e) {
-        Player player = e.getPlayer();
-        player.sendMessage("You left the Bed karuz.");
-        player.setHealth(0);
-    }
-
-//    @Override
+    //    @Override
 //    public void onDisable() {
 //        // Plugin shutdown logic
 //        System.out.println("My First Plugin has stopped. Bye!");
