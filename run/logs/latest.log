@@ -1,0 +1,899 @@
+[04:03:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.4+8-LTS-274; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[04:03:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[04:03:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[04:03:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[04:03:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[04:03:02] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[04:03:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:03:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar'...
+[04:03:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar' in 537ms.
+[04:03:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[04:03:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - TownyResidency (1.0.0)
+[04:03:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:03:09] [ServerMain/INFO]: Loaded 1290 recipes
+[04:03:09] [ServerMain/INFO]: Loaded 1399 advancements
+[04:03:09] [Server thread/INFO]: Starting minecraft server version 1.21
+[04:03:09] [Server thread/INFO]: Loading properties
+[04:03:09] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[04:03:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:03:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:03:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:03:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[04:03:11] [Server thread/INFO]: Default game type: SURVIVAL
+[04:03:11] [Server thread/INFO]: Generating keypair
+[04:03:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:03:11] [Server thread/INFO]: Using default channel type
+[04:03:11] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[04:03:11] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[04:03:11] [Server thread/INFO]: [TownyResidency] Loading server plugin TownyResidency v1.0.0
+[04:03:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:03:11] [Server thread/INFO]: Preparing level "world"
+[04:03:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:03:13] [Server thread/INFO]: Time elapsed: 755 ms
+[04:03:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:03:13] [Server thread/INFO]: Time elapsed: 105 ms
+[04:03:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:03:13] [Server thread/INFO]: Time elapsed: 63 ms
+[04:03:13] [Server thread/INFO]: [TownyResidency] Enabling TownyResidency v1.0.0
+[04:03:13] [Server thread/INFO]: [TownyResidency] [STDOUT] My First Plugin has started. Hi!
+[04:03:13] [Server thread/WARN]: Nag author(s): '[NikDev]' of 'TownyResidency v1.0.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[04:03:13] [Server thread/INFO]: [spark] Starting background profiler...
+[04:03:13] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[04:03:13] [Server thread/INFO]: Done preparing level "world" (2.008s)
+[04:03:13] [Server thread/INFO]: Running delayed init tasks
+[04:03:13] [Server thread/INFO]: Done (12.920s)! For help, type "help"
+[04:03:13] [Server thread/INFO]: Timings Reset
+[04:03:24] [User Authenticator #0/INFO]: UUID of player NikDev26 is b7d88152-9ace-4a3f-8697-a22b17fa9225
+[04:03:25] [Server thread/INFO]: [TownyResidency] [STDOUT] A Player has joined the server.
+[04:03:25] [Server thread/INFO]: Welcome to the Pit NikDev26.
+[04:03:25] [Server thread/INFO]: NikDev26[/127.0.0.1:50687] logged in with entity id 20 at ([world]-666.7200331657679, 65.0, -120.1806576518397)
+[04:03:36] [Server thread/INFO]: NikDev26 issued server command: /time set night
+[04:03:36] [Server thread/INFO]: [NikDev26: Set the time to 13000]
+[04:03:37] [Server thread/INFO]: NikDev26 has made the advancement [Sweet Dreams]
+[04:03:42] [Server thread/INFO]: NikDev26 died
+[04:03:57] [Server thread/INFO]: NikDev26 lost connection: Disconnected
+[04:03:57] [Server thread/INFO]: NikDev26 left the game
+[04:08:15] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level10639010466382640026.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:08:15] [Server thread/WARN]: Failed to execute rename .\world\level10639010466382640026.dat to .\world\level.dat
+[04:08:15] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level10639010466382640026.dat, retrying 0/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 0/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 1/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 2/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 3/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 4/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 5/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 6/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 7/10
+[04:13:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2255652574918293760.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:13:13] [Server thread/WARN]: Failed to execute rename .\world\level2255652574918293760.dat to .\world\level.dat
+[04:13:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2255652574918293760.dat, retrying 8/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 0/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 1/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 2/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 3/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 4/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 5/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 6/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 7/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 8/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\level2443893291437589627.dat -> .\world\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world\level2443893291437589627.dat to .\world\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, retrying 9/10
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world\level.dat with .\world\level2443893291437589627.dat, aborting, progress might be lost
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 0/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 1/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 2/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 3/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 4/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 5/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 6/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 7/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 8/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_nether\level103437510376180439.dat -> .\world_nether\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_nether\level103437510376180439.dat to .\world_nether\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, retrying 9/10
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_nether\level.dat with .\world_nether\level103437510376180439.dat, aborting, progress might be lost
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 0/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 1/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 2/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 3/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 4/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 5/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 6/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 7/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 8/10
+[04:18:13] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world_the_end\level11463256977224432431.dat -> .\world_the_end\level.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
+	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:621) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1340) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1619) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:18:13] [Server thread/WARN]: Failed to execute rename .\world_the_end\level11463256977224432431.dat to .\world_the_end\level.dat
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, retrying 9/10
+[04:18:13] [Server thread/ERROR]: Failed to replace .\world_the_end\level.dat with .\world_the_end\level11463256977224432431.dat, aborting, progress might be lost
