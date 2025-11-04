@@ -3,4 +3,4 @@ version: '1.0.0'
 main: de.nikdev.townyResidency.TownyResidency
 api-version: '1.21'
 authors: [ NikDev ]
-description: A Plugin that goes into the roleplay aspects of residency with Towny
+description: A Plugin that goes into the roleplay aspects of residency within Towny
