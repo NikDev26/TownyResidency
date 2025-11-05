@@ -1,2 +1,27 @@
-/run*
-/build*
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VSCode
+.vscode/
+
+# Minecraft test server folder
+run/
+server/
+world/
+plugins/
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
