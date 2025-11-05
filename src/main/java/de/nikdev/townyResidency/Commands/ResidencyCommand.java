@@ -19,10 +19,8 @@ import org.bukkit.inventory.ItemRarity;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BookMeta;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
 
 public class ResidencyCommand implements CommandExecutor {
     @Override
@@ -42,18 +40,18 @@ public class ResidencyCommand implements CommandExecutor {
                 bookMeta.setRarity(ItemRarity.EPIC);
                 TextComponent line1 = new TextComponent("Residency Paper of: ");
                 TextComponent line1_1 = new TextComponent(p.getName() + "\n\n");
-                line1_1.setColor(net.md_5.bungee.api.ChatColor.of("#bf9b30"));
+                line1_1.setColor(net.md_5.bungee.api.ChatColor.of("#2E8924"));
                 line1.addExtra(line1_1);
 
-                TextComponent line2 = new TextComponent("Title: " + resident.getTitle() + "\n");
+                TextComponent lineTitle = new TextComponent("Title: " + resident.getTitle() + "\n\n");
 
-                TextComponent line3 = new TextComponent("Town Ranks: " + resident.getTownRanks() + "\n");
-                TextComponent line4 = new TextComponent("Nation Ranks: " + resident.getNationRanks() + "\n\n");
+                TextComponent lineNation = new TextComponent("Nation: " + nation.getName() + "\n");
+                lineNation.setColor(net.md_5.bungee.api.ChatColor.of("#e3b719"));
+                TextComponent lineNationRanks = new TextComponent("Nation Ranks: " + resident.getNationRanks() + "\n");
 
-                TextComponent line5 = new TextComponent("Nation: " + nation.getName() + "\n");
-                line5.setColor(net.md_5.bungee.api.ChatColor.of("#e3b719"));
-                TextComponent line6 = new TextComponent("Town: " + town.getName() + "\n\n");
-                line6.setColor(net.md_5.bungee.api.ChatColor.of("#37e6dd"));
+                TextComponent lineTown = new TextComponent("Town: " + town.getName() + "\n");
+                lineTown.setColor(net.md_5.bungee.api.ChatColor.of("#37e6dd"));
+                TextComponent lineTownRanks = new TextComponent("Town Ranks: " + resident.getTownRanks() + "\n\n");
 
                 TextComponent link = new TextComponent("Click here to visit Discord!");
                 link.setColor(net.md_5.bungee.api.ChatColor.BLUE);
@@ -65,14 +63,14 @@ public class ResidencyCommand implements CommandExecutor {
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy - HH:mm");
                 String formattedDateTime = dateTimeNow.format(formatter);
 
-                TextComponent line7 = new TextComponent("Issued by TownyResidency at: " + formattedDateTime);
+                TextComponent lineDateTime = new TextComponent("Issued by TownyResidency at: " + formattedDateTime);
 
                 BaseComponent[] page = new BaseComponent[] {
-                        line1, line2, line3, line4, line5, line6, link
+                        line1, lineTitle, lineNation, lineNationRanks, lineTown, lineTownRanks, link
                 };
 
                 BaseComponent[] page1 = new BaseComponent[] {
-                        line7
+                        lineDateTime
                 };
 
 
