@@ -7,5 +7,8 @@ description: A Plugin that goes into the roleplay aspects of residency within To
 depend: [Towny]
 commands:
   residency:
-    description: Gives out the town and nation of a player
+    description: Gives out your own Residency Paper.
     usage: /<command>
+  request_residency:
+    description: Gives out a players Residency Paper.
+    usage: /<command> <player>

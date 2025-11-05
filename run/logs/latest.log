@@ -1,79 +1,91 @@
-[19:15:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.4+8-LTS-274; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[19:15:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[19:15:10] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
-[19:15:10] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
-[19:15:10] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
-[19:15:10] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
-[19:15:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:15:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar'...
-[19:15:10] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar' in 201ms.
-[19:15:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[19:15:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[02:56:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.4+8-LTS-274; Oracle Corporation null) on Windows 10 10.0 (amd64)
+[02:56:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[02:56:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[02:56:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[02:56:02] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[02:56:02] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[02:56:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:56:02] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar'...
+[02:56:02] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\User\Desktop\Minecraft Plugins\Towny Residency\build\libs\Towny Residency-1.0.0.jar' in 212ms.
+[02:56:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[02:56:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - Towny (0.101.2.0), TownyResidency (1.0.0)
-[19:15:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:15:15] [ServerMain/INFO]: Loaded 1290 recipes
-[19:15:16] [ServerMain/INFO]: Loaded 1399 advancements
-[19:15:16] [Server thread/INFO]: Starting minecraft server version 1.21
-[19:15:16] [Server thread/INFO]: Loading properties
-[19:15:16] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[19:15:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[19:15:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:15:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:15:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
-[19:15:17] [Server thread/INFO]: Default game type: SURVIVAL
-[19:15:17] [Server thread/INFO]: Generating keypair
-[19:15:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:15:17] [Server thread/INFO]: Using default channel type
-[19:15:17] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:15:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:15:18] [Server thread/INFO]: [Towny] Loading server plugin Towny v0.101.2.0
-[19:15:18] [Server thread/INFO]: [TownyResidency] Loading server plugin TownyResidency v1.0.0
-[19:15:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:15:18] [Server thread/INFO]: Preparing level "world"
-[19:15:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:15:19] [Server thread/INFO]: Time elapsed: 844 ms
-[19:15:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:15:19] [Server thread/INFO]: Time elapsed: 83 ms
-[19:15:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:15:19] [Server thread/INFO]: Time elapsed: 55 ms
-[19:15:19] [Server thread/INFO]: [Towny] Enabling Towny v0.101.2.0
-[19:15:19] [Server thread/INFO]: ====================      Towny      ========================
-[19:15:21] [Server thread/INFO]: [Towny] Successfully loaded translations for 43 languages.
-[19:15:21] [Server thread/INFO]: [Towny] Config: Loaded 9 townblock types: shop, inn, arena, jail, default, bank, wilds, farm, embassy.
-[19:15:21] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
-[19:15:22] [Server thread/INFO]: [Towny] Database: Loaded in 130ms.
-[19:15:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Cleaning up old backups...
-[19:15:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Successfully cleaned backups.
-[19:15:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Making backup...
-[19:15:22] [Folia Async Scheduler Thread #0/INFO]: [Towny] Time until a New Day: 16 hours, 44 minutes, 38 seconds
-[19:15:22] [Folia Async Scheduler Thread #1/INFO]: [Towny] Checking for updates...
-[19:15:22] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
-[19:15:22] [Server thread/INFO]: [Towny] Searching for third-party plugins...
-[19:15:22] [Server thread/INFO]: [Towny] Plugins found: 
-[19:15:22] [Server thread/INFO]: [Towny]   Permissions: TownyPerms, BukkitPermissions
-[19:15:22] [Server thread/INFO]: [Towny]   Warning: No compatible Economy plugins found. Install
+[02:56:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:56:06] [ServerMain/INFO]: Loaded 1290 recipes
+[02:56:07] [ServerMain/INFO]: Loaded 1399 advancements
+[02:56:07] [Server thread/INFO]: Starting minecraft server version 1.21
+[02:56:07] [Server thread/INFO]: Loading properties
+[02:56:07] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[02:56:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:56:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:56:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:56:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[02:56:08] [Server thread/INFO]: Default game type: SURVIVAL
+[02:56:08] [Server thread/INFO]: Generating keypair
+[02:56:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:56:08] [Server thread/INFO]: Using default channel type
+[02:56:08] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[02:56:08] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[02:56:09] [Server thread/INFO]: [Towny] Loading server plugin Towny v0.101.2.0
+[02:56:09] [Server thread/INFO]: [TownyResidency] Loading server plugin TownyResidency v1.0.0
+[02:56:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:56:09] [Server thread/INFO]: Preparing level "world"
+[02:56:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:56:10] [Server thread/INFO]: Time elapsed: 677 ms
+[02:56:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:56:10] [Server thread/INFO]: Time elapsed: 98 ms
+[02:56:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:56:10] [Server thread/INFO]: Time elapsed: 66 ms
+[02:56:10] [Server thread/INFO]: [Towny] Enabling Towny v0.101.2.0
+[02:56:10] [Server thread/INFO]: ====================      Towny      ========================
+[02:56:12] [Server thread/INFO]: [Towny] Successfully loaded translations for 43 languages.
+[02:56:12] [Server thread/INFO]: [Towny] Config: Loaded 9 townblock types: shop, inn, arena, jail, default, bank, wilds, farm, embassy.
+[02:56:12] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[02:56:12] [Server thread/INFO]: [Towny] Database: Loaded in 121ms.
+[02:56:12] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Cleaning up old backups...
+[02:56:12] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Successfully cleaned backups.
+[02:56:12] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Making backup...
+[02:56:12] [Folia Async Scheduler Thread #0/INFO]: [Towny] Time until a New Day: 9 hours, 3 minutes, 48 seconds
+[02:56:12] [Folia Async Scheduler Thread #1/INFO]: [Towny] Checking for updates...
+[02:56:12] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
+[02:56:12] [Server thread/INFO]: [Towny] Searching for third-party plugins...
+[02:56:12] [Server thread/INFO]: [Towny] Plugins found: 
+[02:56:12] [Server thread/INFO]: [Towny]   Permissions: TownyPerms, BukkitPermissions
+[02:56:12] [Server thread/INFO]: [Towny]   Warning: No compatible Economy plugins found. Install
                            Vault.jar or Reserve.jar with any of the supported eco
                            systems. If you do not want an economy to be used, set
                            using_economy: false in your Towny config.yml.
-[19:15:22] [Folia Async Scheduler Thread #1/INFO]: [Towny] New update available: 0.101.2.7 | Current version: 0.101.2.0
-[19:15:22] [Folia Async Scheduler Thread #1/INFO]: [Towny] Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.101.2.7
-[19:15:23] [Server thread/INFO]: =============================================================
-[19:15:23] [Server thread/INFO]: [Towny] Version: 0.101.2.0 - Plugin Enabled
-[19:15:23] [Server thread/INFO]: =============================================================
-[19:15:23] [Server thread/INFO]: [TownyResidency] Enabling TownyResidency v1.0.0
-[19:15:23] [Server thread/INFO]: [TownyResidency] Towny found! Loaded version: com.palmergames.bukkit.towny.TownyAPI@709e8b63
-[19:15:23] [Server thread/INFO]: [spark] Starting background profiler...
-[19:15:23] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
-[19:15:23] [Server thread/INFO]: Done preparing level "world" (5.367s)
-[19:15:23] [Server thread/INFO]: Running delayed init tasks
-[19:15:23] [Server thread/INFO]: Done (14.687s)! For help, type "help"
-[19:15:23] [Server thread/INFO]: Timings Reset
-[19:17:10] [User Authenticator #0/INFO]: UUID of player NikDev26 is b7d88152-9ace-4a3f-8697-a22b17fa9225
-[19:17:11] [Server thread/INFO]: NikDev26 joined the game
-[19:17:11] [Server thread/INFO]: NikDev26[/127.0.0.1:51215] logged in with entity id 85 at ([world]27.532683076535186, 80.0, 15.647703531770741)
-[19:17:14] [Server thread/INFO]: NikDev26 issued server command: /residency
-[19:27:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-14114286814636063266.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:13] [Folia Async Scheduler Thread #1/INFO]: [Towny] New update available: 0.101.2.7 | Current version: 0.101.2.0
+[02:56:13] [Folia Async Scheduler Thread #1/INFO]: [Towny] Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.101.2.7
+[02:56:13] [Server thread/INFO]: =============================================================
+[02:56:13] [Server thread/INFO]: [Towny] Version: 0.101.2.0 - Plugin Enabled
+[02:56:13] [Server thread/INFO]: =============================================================
+[02:56:13] [Server thread/INFO]: [TownyResidency] Enabling TownyResidency v1.0.0
+[02:56:13] [Server thread/INFO]: [TownyResidency] Hello from TownyResidency. Looking if Towny is installed...
+[02:56:13] [Server thread/INFO]: [TownyResidency] Towny found! Loaded version: com.palmergames.bukkit.towny.TownyAPI@6d268de4
+[02:56:13] [Server thread/INFO]: [spark] Starting background profiler...
+[02:56:13] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[02:56:13] [Server thread/INFO]: Done preparing level "world" (4.456s)
+[02:56:13] [Server thread/INFO]: Running delayed init tasks
+[02:56:13] [Server thread/INFO]: Done (13.045s)! For help, type "help"
+[02:56:13] [Server thread/INFO]: Timings Reset
+[02:56:14] [User Authenticator #0/INFO]: UUID of player NikDev26 is b7d88152-9ace-4a3f-8697-a22b17fa9225
+[02:56:14] [Server thread/INFO]: NikDev26 joined the game
+[02:56:14] [Server thread/INFO]: NikDev26[/127.0.0.1:61173] logged in with entity id 78 at ([world]31.70530014779405, 82.0, 18.99813113183517)
+[02:56:16] [Server thread/INFO]: NikDev26 issued server command: /residency
+[02:56:38] [Server thread/INFO]: Stopping the server
+[02:56:38] [Server thread/INFO]: Stopping server
+[02:56:38] [Server thread/INFO]: [TownyResidency] Disabling TownyResidency v1.0.0
+[02:56:38] [Server thread/INFO]: [TownyResidency] Plugin is shutting down, good night...
+[02:56:38] [Server thread/INFO]: [Towny] Disabling Towny v0.101.2.0
+[02:56:38] [Server thread/INFO]: ==============================================================
+[02:56:38] [Server thread/INFO]: [Towny] Finishing File IO Tasks...
+[02:56:38] [Server thread/INFO]: [Towny] Finishing Universe Tasks...
+[02:56:38] [Server thread/INFO]: [Towny] Version: 0.101.2.0 - Plugin Disabled
+[02:56:38] [Server thread/INFO]: =============================================================
+[02:56:38] [Server thread/INFO]: Saving players
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -89,14 +101,16 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:27:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-14114286814636063266.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:27:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-14114286814636063266.dat, retrying 0/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 0/10
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -112,14 +126,16 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 0/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 1/10
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -135,14 +151,16 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 1/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 2/10
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -158,14 +176,16 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 2/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 3/10
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -181,14 +201,16 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 3/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 4/10
+[02:56:38] [Server thread/ERROR]: Failed to rename
+java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
 	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
 	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
@@ -204,148 +226,33 @@ java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a2
 	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1188) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1055) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 4/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 5/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 6/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 7/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 8/10
-[19:32:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[19:32:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, retrying 9/10
-[19:32:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-9271355351763724825.dat, aborting, progress might be lost
-[20:02:10] [Server thread/ERROR]: Failed to rename
-java.nio.file.FileSystemException: .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-3670148230826360494.dat -> .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat: Der Prozess kann nicht auf die Datei zugreifen, da sie von einem anderen Prozess verwendet wird
-	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:414) ~[?:?]
-	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
-	at java.base/java.nio.file.Files.move(Files.java:1430) ~[?:?]
-	at net.minecraft.Util$3.getAsBoolean(Util.java:620) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.executeInSequence(Util.java:685) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.runWithRetries(Util.java:696) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceOrMoveFile(Util.java:717) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.Util.safeReplaceFile(Util.java:708) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:48) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.save(PlayerList.java:573) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.lambda$saveAll$3(PlayerList.java:1199) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:128) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1192) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1615) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[20:02:10] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-3670148230826360494.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
-[20:02:10] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-3670148230826360494.dat, retrying 0/10
+[02:56:38] [Server thread/WARN]: Failed to execute rename .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat to .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat
+[02:56:38] [Server thread/ERROR]: Failed to replace .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225.dat with .\world\playerdata\b7d88152-9ace-4a3f-8697-a22b17fa9225-13113844542276461810.dat, retrying 5/10
+[02:56:38] [Server thread/INFO]: NikDev26 lost connection: Server closed
+[02:56:38] [Server thread/INFO]: NikDev26 left the game
+[02:56:38] [Server thread/INFO]: Saving worlds
+[02:56:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:56:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:56:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:56:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Saved 625 block chunks, 625 entity chunks, 0 poi chunks in world 'world' in 1,08s
+[02:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,07s
+[02:56:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:56:39] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,05s
+[02:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:56:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
