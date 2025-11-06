@@ -1,10 +1,8 @@
 package de.nikdev.townyResidency;
 
 import com.palmergames.bukkit.towny.TownyAPI;
-import de.nikdev.townyResidency.Commands.RequestResidencyCommand;
 import de.nikdev.townyResidency.Commands.ResidencyCommand;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import static org.bukkit.Bukkit.getLogger;
 
 public final class TownyResidency extends JavaPlugin {
@@ -22,7 +20,6 @@ public final class TownyResidency extends JavaPlugin {
         getLogger().info("Towny found! Loaded version: " + api);
 
         getCommand("residency").setExecutor(new ResidencyCommand());
-        getCommand("request_residency").setExecutor(new RequestResidencyCommand());
     }
 
 

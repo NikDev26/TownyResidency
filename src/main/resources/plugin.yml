@@ -9,6 +9,3 @@ commands:
   residency:
     description: Gives out your own Residency Paper.
     usage: /<command>
-  request_residency:
-    description: Gives out a players Residency Paper.
-    usage: /<command> <player>
