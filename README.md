@@ -5,7 +5,7 @@ Towny Residency is a plugin that adds a "Residency Paper" a form of ID Card, int
 
 **residency:**\
 description: Gives out your own Residency Paper. \
-usage: `/residency`
+usage: `/residency` 
 
 
 ## Images:
